@@ -1,0 +1,499 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>0,01%</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="0,01%">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/1062/1062058.png">
+
+    <meta charset="UTF-8">
+    <title>Lịch Tập Gym Tại Nhà - Huy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #ecf0f1, #dff9fb);
+            color: #2d3436;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 20px;
+            margin: 0 -20px 30px -20px;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        h2 {
+            color: #2c3e50;
+            padding-bottom: 10px;
+            border-left: 5px solid #0984e3;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        .day-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease-in-out;
+        }
+        .day-section:hover {
+            transform: scale(1.01);
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 15px 0;
+            background: #f1f2f6;
+            padding: 12px 15px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        li:hover {
+            background: #dff9fb;
+        }
+        input[type="checkbox"] {
+            display: none;
+        }
+        label {
+            font-size: 16px;
+            cursor: pointer;
+            display: block;
+            padding-left: 30px;
+            position: relative;
+        }
+        label::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #3498db;
+            border-radius: 4px;
+            background: white;
+        }
+        input[type="checkbox"]:checked + label::before {
+            background: #3498db;
+        }
+        .media-box {
+            display: none;
+            margin-top: 15px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        input[type="checkbox"]:checked + label + .media-box {
+            display: block;
+        }
+        iframe {
+            width: 100%;
+            max-width: 100%;
+            height: 300px;
+            border-radius: 8px;
+            border: none;
+        }
+        img {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        @media screen and (max-width: 600px) {
+            iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>LỊCH TẬP GYM TẠI NHÀ – HUY</h1>
+<div class="day-section"><h2>Thứ 2 – Toàn thân + Bụng</h2><ul>
+        <li>
+            <input type="checkbox" id="Thứ_2_–_Toàn_thân_+_Bụng_activity_0">
+            <label for="Thứ_2_–_Toàn_thân_+_Bụng_activity_0">Khởi động 5 phút: nhảy dây, xoay khớp</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_2_–_Toàn_thân_+_Bụng_activity_1">
+            <label for="Thứ_2_–_Toàn_thân_+_Bụng_activity_1">Squat + Shoulder Press (dây) – 3 x 12</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_2_–_Toàn_thân_+_Bụng_activity_2">
+            <label for="Thứ_2_–_Toàn_thân_+_Bụng_activity_2">Row (dây cố định dưới cửa) – 3 x 12</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_2_–_Toàn_thân_+_Bụng_activity_3">
+            <label for="Thứ_2_–_Toàn_thân_+_Bụng_activity_3">Glute Bridge + Band – 3 x 15</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_2_–_Toàn_thân_+_Bụng_activity_4">
+            <label for="Thứ_2_–_Toàn_thân_+_Bụng_activity_4">Plank to Elbow Tap – 3 x 20</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_2_–_Toàn_thân_+_Bụng_activity_5">
+            <label for="Thứ_2_–_Toàn_thân_+_Bụng_activity_5">Leg Raise + Dây – 3 x 15</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_2_–_Toàn_thân_+_Bụng_activity_6">
+            <label for="Thứ_2_–_Toàn_thân_+_Bụng_activity_6">Finisher: 2 phút chạy tại chỗ nâng gối</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        </ul></div><div class="day-section"><h2>Thứ 3 – Cardio HIIT + Bụng</h2><ul>
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_0">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_0">Jump rope (hoặc chạy tại chỗ) – 3 phút</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_1">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_1">HIIT (3 vòng):</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_2">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_2">  - Jump squats – 30s</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_3">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_3">  - Mountain climbers – 30s</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_4">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_4">  - Jump lunges – 30s</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_5">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_5">  - Plank hold – 30s</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_6">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_6">  - Nghỉ 1 phút giữa các vòng</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_7">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_7">Abs burnout:</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_8">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_8">  - Bicycle crunch – 3 x 30</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_9">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_9">  - Toe touches – 3 x 20</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_10">
+            <label for="Thứ_3_–_Cardio_HIIT_+_Bụng_activity_10">  - Plank – 3 x 40s</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        </ul></div><div class="day-section"><h2>Thứ 4 – Thân dưới + Core chuyên sâu</h2><ul>
+        <li>
+            <input type="checkbox" id="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_0">
+            <label for="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_0">Band Deadlift – 3 x 12</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_1">
+            <label for="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_1">Lateral Band Walk – 3 x 10 mỗi bên</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_2">
+            <label for="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_2">Bulgarian Split Squat (chân sau đặt ghế, có dây) – 3 x 10 mỗi chân</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_3">
+            <label for="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_3">Seated Crunch + Band – 3 x 15</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_4">
+            <label for="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_4">Side Plank Hip Dips – 3 x 10 mỗi bên</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_5">
+            <label for="Thứ_4_–_Thân_dưới_+_Core_chuyên_sâu_activity_5">Finisher: Jump Squats 3 x 20 (nghỉ 20s giữa set)</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        </ul></div><div class="day-section"><h2>Thứ 5 – Nghỉ ngơi / Giãn cơ nhẹ</h2><ul>
+        <li>
+            <input type="checkbox" id="Thứ_5_–_Nghỉ_ngơi_/_Giãn_cơ_nhẹ_activity_0">
+            <label for="Thứ_5_–_Nghỉ_ngơi_/_Giãn_cơ_nhẹ_activity_0">Tùy chọn: đi bộ nhanh 20–30 phút, yoga nhẹ hoặc massage</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        </ul></div><div class="day-section"><h2>Thứ 6 – Thân trên + Bụng</h2><ul>
+        <li>
+            <input type="checkbox" id="Thứ_6_–_Thân_trên_+_Bụng_activity_0">
+            <label for="Thứ_6_–_Thân_trên_+_Bụng_activity_0">Push-up – 3 x 10–12</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_6_–_Thân_trên_+_Bụng_activity_1">
+            <label for="Thứ_6_–_Thân_trên_+_Bụng_activity_1">Shoulder Press + Band – 3 x 12</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_6_–_Thân_trên_+_Bụng_activity_2">
+            <label for="Thứ_6_–_Thân_trên_+_Bụng_activity_2">Band Face Pull – 3 x 15</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_6_–_Thân_trên_+_Bụng_activity_3">
+            <label for="Thứ_6_–_Thân_trên_+_Bụng_activity_3">Band Tricep Extension – 3 x 12</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_6_–_Thân_trên_+_Bụng_activity_4">
+            <label for="Thứ_6_–_Thân_trên_+_Bụng_activity_4">Oblique Band Crunch – 3 x 12 mỗi bên</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_6_–_Thân_trên_+_Bụng_activity_5">
+            <label for="Thứ_6_–_Thân_trên_+_Bụng_activity_5">Plank Hold – 3 x 45s</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_6_–_Thân_trên_+_Bụng_activity_6">
+            <label for="Thứ_6_–_Thân_trên_+_Bụng_activity_6">Finisher: Burpees 3 x 10</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        </ul></div><div class="day-section"><h2>Thứ 7 – Full Body Burn + Cardio</h2><ul>
+        <li>
+            <input type="checkbox" id="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_0">
+            <label for="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_0">Circuit 3 vòng:</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_1">
+            <label for="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_1">  - Band Squat Press – 12</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_2">
+            <label for="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_2">  - Band Row – 12</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_3">
+            <label for="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_3">  - Jumping Jacks – 1 phút</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_4">
+            <label for="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_4">  - Glute Kickback + Band – 10 mỗi chân</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_5">
+            <label for="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_5">  - Russian Twist – 20</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_6">
+            <label for="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_6">  - Plank + Knee to Elbow – 30s</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_7">
+            <label for="Thứ_7_–_Full_Body_Burn_+_Cardio_activity_7">Kết thúc: Giãn cơ 5 phút</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        </ul></div><div class="day-section"><h2>Chủ nhật – Nghỉ hoặc phục hồi</h2><ul>
+        <li>
+            <input type="checkbox" id="Chủ_nhật_–_Nghỉ_hoặc_phục_hồi_activity_0">
+            <label for="Chủ_nhật_–_Nghỉ_hoặc_phục_hồi_activity_0">Yoga thư giãn 20–30 phút hoặc đi bộ nhẹ nhàng</label>
+            <div class="media-box">
+                <img src="https://via.placeholder.com/400x200.png?text=Minh+ho%E1%BA%A1" alt="Hình minh họa">
+                <iframe src="https://www.youtube.com/embed/18hPypKsQ8w" allowfullscreen></iframe>
+            </div>
+        </li>
+        </ul></div></div></body></html>
